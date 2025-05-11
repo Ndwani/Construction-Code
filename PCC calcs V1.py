@@ -3,7 +3,7 @@ import numpy as np
 from openpyxl import load_workbook
 
 #load work book
-wb = load_workbook("IDCT FOUNDATION ELEVATION FOR 6-6.xlsx", data_only=True)
+wb = load_workbook("IDCT FOUNDATION ELEVATION FOR 6-6.xlsx", data_only=True) # import your excel file here
 ws = wb.active  #activates the workbook
 #info extraction
 
